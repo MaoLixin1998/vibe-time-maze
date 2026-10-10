@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vibe-time-maze"
+version = "0.2.1"
+description = "An original offline age-and-time maze graybox"
+requires-python = ">=3.13"
+dependencies = ["pygame-ce==2.5.8"]
+
+[project.scripts]
+time-maze = "time_maze.app.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["time_maze*"]
+exclude = ["support*"]
+
+[tool.setuptools.package-data]
+time_maze = ["data/level.json", "data/rules.json", "data/text.json",
+             "data/areas/a_sword_chamber.json",
+             "data/areas/b_maze_crossroads.json",
+             "data/areas/c_cargo_corridor.json",
+             "data/areas/d_night_gate.json",
+             "data/areas/e_chicken_yard.json",
+             "data/areas/f_nest_passage.json",
+             "data/areas/g_meadow.json"]

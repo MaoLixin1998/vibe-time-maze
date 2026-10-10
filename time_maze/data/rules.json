@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "movement_seconds": 0.16,
+  "warning_seconds": 3.2,
+  "chicken_step_seconds": 0.32,
+  "return_step_seconds": 0.26,
+  "exit_seconds": 8,
+  "max_notes": 12,
+  "melodies": [
+    {
+      "id": "time_shift",
+      "name": "原创时间曲（试玩版）",
+      "notes": [
+        [
+          6,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "effect": "toggle_day",
+      "category": "main"
+    },
+    {
+      "id": "egg_lullaby",
+      "name": "塞尔达摇篮曲",
+      "notes": [
+        [
+          7,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "effect": "egg_lullaby",
+      "category": "optional"
+    },
+    {
+      "id": "chicken_call",
+      "name": "鸡回应短句（试玩版）",
+      "notes": [
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "effect": "chicken_call",
+      "category": "hidden"
+    }
+  ],
+  "box_seconds": 1.2,
+  "slide_seconds": 0.9
+}

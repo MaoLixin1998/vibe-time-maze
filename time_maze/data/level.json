@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "initial_region": "A",
+  "initial_position": [
+    10,
+    14
+  ],
+  "chicken_spawns": [
+    [
+      "E",
+      10,
+      5
+    ],
+    [
+      "E",
+      13,
+      11
+    ],
+    [
+      "F",
+      6,
+      3
+    ]
+  ],
+  "areas": [
+    {
+      "id": "A",
+      "file": "areas/a_sword_chamber.json"
+    },
+    {
+      "id": "B",
+      "file": "areas/b_maze_crossroads.json"
+    },
+    {
+      "id": "C",
+      "file": "areas/c_cargo_corridor.json"
+    },
+    {
+      "id": "D",
+      "file": "areas/d_night_gate.json"
+    },
+    {
+      "id": "E",
+      "file": "areas/e_chicken_yard.json"
+    },
+    {
+      "id": "F",
+      "file": "areas/f_nest_passage.json"
+    },
+    {
+      "id": "G",
+      "file": "areas/g_meadow.json"
+    }
+  ]
+}
